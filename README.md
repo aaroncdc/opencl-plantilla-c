@@ -5,7 +5,9 @@
 Es necesaria la libreria de OpenCL (libOpenCL). La instalación varía dependiendo de tu sistema operativo o distribución de Linux y de tu hardware (más especificamente, de tu GPU).
 
 · **Ubuntu**: Dependiendo de tu GPU, instala una de las siguientes combinaciones de paquetes: intel-opencl-icd (Para Intel), nvidia-opencl-dev y nvidia-opencl-icd-xxx (Para nVidia, donde 'xxx' es la versión de tus drivers. Por ejemplo, 331), o mesa-opencl-icd (Para AMD). En cualquiera de los casos, deberás instalar también el paquete opencl-headers.
+
 · **Arch Linux**: Sigue las instrucciones en [wiki.archlinux.org](https://wiki.archlinux.org/title/GPGPU)
+
 · **MinGW64**: Instala los paquetes mingw-w64-x86_64-opencl-headers y mingw-w64-x86_64-opencl-icd-git.
 
 ## Compilación
